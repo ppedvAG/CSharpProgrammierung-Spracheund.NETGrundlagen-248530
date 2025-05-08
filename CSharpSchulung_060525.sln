@@ -31,6 +31,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M007_Lab", "M007_Lab\M007_L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M008_Vererbung", "M008_Vererbung\M008_Vererbung.csproj", "{59B1C035-D63B-4791-BE9D-22AD099B785B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M008_Lab", "M008_Lab\M008_Lab.csproj", "{0236D7CC-79EB-474D-BF97-FF4D5061C4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M009_Polymorphismus", "M009_Polymorphismus\M009_Polymorphismus.csproj", "{BD761975-E970-4E10-99A5-ACC1349E3668}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,14 @@ Global
 		{59B1C035-D63B-4791-BE9D-22AD099B785B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B1C035-D63B-4791-BE9D-22AD099B785B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B1C035-D63B-4791-BE9D-22AD099B785B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0236D7CC-79EB-474D-BF97-FF4D5061C4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0236D7CC-79EB-474D-BF97-FF4D5061C4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0236D7CC-79EB-474D-BF97-FF4D5061C4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0236D7CC-79EB-474D-BF97-FF4D5061C4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD761975-E970-4E10-99A5-ACC1349E3668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD761975-E970-4E10-99A5-ACC1349E3668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD761975-E970-4E10-99A5-ACC1349E3668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD761975-E970-4E10-99A5-ACC1349E3668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
