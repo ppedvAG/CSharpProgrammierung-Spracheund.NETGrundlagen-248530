@@ -17,6 +17,11 @@ internal class Program
         // Personen über 60 Jahre alt
         personen.Where(e => e.Alter >= 60);
 
+        personen.Any(e => e.Alter >= 50 && e.Job.Gehalt >= 2000);
+
+        personen.Where(e => e.Vorname[0] == 'M' && e.Nachname[0] == 'S');
+        personen.Where(e => e.Vorname.StartsWith('M') && e.Nachname.StartsWith('S'));
+
     }
 }
 

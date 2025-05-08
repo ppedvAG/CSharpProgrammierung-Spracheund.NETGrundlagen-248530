@@ -67,7 +67,7 @@ foreach(var element in zahlen)
 // Eigener Typ 
 // Hintergrund: Über eine Enumvariable können mögliche Zuständen eingeschränkt werden
 
-
+Console.WriteLine(Wochentag.Di);
 Wochentag wt = Wochentag.Di;
 if(wt == Wochentag.Di)
 {
