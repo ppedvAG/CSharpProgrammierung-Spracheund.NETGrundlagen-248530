@@ -1,4 +1,6 @@
-﻿namespace Fahrzeugpark;
+﻿using System.Net.Http.Headers;
+
+namespace Fahrzeugpark;
 
 public class Fahrzeug
 {
@@ -103,6 +105,36 @@ public class Program
         Console.WriteLine(pkw.Info());
         Console.WriteLine(schiff.Info());
         Console.WriteLine(flugzeug.Info());
+
+        flugzeug.Füllmenge = 50;
+        Console.WriteLine(flugzeug.Getankt());
+
+        List<Fahrzeug> fahrzeugs = new List<Fahrzeug>
+        {
+            new Fahrzeug("BMW", 300, 20000),
+            new Fahrzeug("Audi", 300, 25000),
+            new Fahrzeug("Mercedes", 3000, 17000)
+        };
+
+        foreach (var fah in fahrzeugs)
+        {
+            Console.WriteLine(fah.Name);
+        }
+
+        // Liste erstellen
+        List<Fahrzeug> fzh = new List<Fahrzeug>();
+
+        // Befuellen
+        for(int i = 0; i < 10; i++)
+        {
+            fzh.Add(new Fahrzeug($"BMW{i}", 33, 50000));
+        }
+
+        // AUsgeben
+        foreach(var f in fzh)
+        {
+            Console.WriteLine(f.Name);
+        }
     }
 }
 
@@ -136,7 +168,7 @@ public class Schiff : Fahrzeug
     }
 }
 
-public class Flugzeug : Fahrzeug
+public class Flugzeug : Fahrzeug, ITanken
 {
     public int Flughoehe { get; set; }
     public Flugzeug(string name, int maxGeschwindigkeit, double preis, int flughoehe) : base(name, maxGeschwindigkeit, preis)
@@ -147,8 +179,21 @@ public class Flugzeug : Fahrzeug
     {
         return $"Das Flugzeug {base.Info()}. Es kann bis auf {Flughoehe}m aufsteigen.";
     }
+
+    public int Füllmenge {  get; set; }
+    public string Getankt()
+    {
+        return $"Ich habe das Flugzeug mit {Füllmenge}L getankt";
+    }
 }
 
 // Erstelle ein Neues Interface: ITanken
 // - Füllmenge
 // public string Getankt => gibt einfach eine Nachricht aus, das wir das Fahrzeug getankt haben
+
+public interface ITanken
+{
+    public int Füllmenge { get; set; }
+
+    public string Getankt();
+}
