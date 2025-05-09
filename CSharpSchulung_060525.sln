@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M012_Linq_Lamba", "M012_Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M012_Linq_Übung", "M012_Linq_Übung\M012_Linq_Übung.csproj", "{59EE84A0-DA6B-4F73-B317-FCBEF5BC15DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbschlussPruefung", "AbschlussPruefung\AbschlussPruefung.csproj", "{E5D57104-112B-49BD-B6C5-FA0BBD81F18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_Exception", "M013_Exception\M013_Exception.csproj", "{799D752C-6DF3-4C5C-A266-99E4D35509DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{59EE84A0-DA6B-4F73-B317-FCBEF5BC15DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EE84A0-DA6B-4F73-B317-FCBEF5BC15DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EE84A0-DA6B-4F73-B317-FCBEF5BC15DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D57104-112B-49BD-B6C5-FA0BBD81F18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D57104-112B-49BD-B6C5-FA0BBD81F18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D57104-112B-49BD-B6C5-FA0BBD81F18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D57104-112B-49BD-B6C5-FA0BBD81F18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799D752C-6DF3-4C5C-A266-99E4D35509DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799D752C-6DF3-4C5C-A266-99E4D35509DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799D752C-6DF3-4C5C-A266-99E4D35509DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799D752C-6DF3-4C5C-A266-99E4D35509DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

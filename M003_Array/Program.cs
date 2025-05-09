@@ -108,7 +108,7 @@ else
 // Bedingung ? True-Wert : False-Wert;
 // Wann kann ich den Ternary-Operator nutzen?
 // => Wenn die Ausgabe nur 1 Befehl hat
-string x = z1 > z2 ? "z1 ist größer als z2" : "z1 ist kleiner als z2";
+string x = (z1 > z2) ? "z1 ist größer als z2" : "z1 ist kleiner als z2";
 Console.WriteLine(x);
 
 #endregion
