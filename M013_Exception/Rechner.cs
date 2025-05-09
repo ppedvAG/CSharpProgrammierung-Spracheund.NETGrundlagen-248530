@@ -9,6 +9,6 @@ public class Rechner
 
     public double Subtrahieren(double x, double y)
     {
-        return x - y;
+        return x - y+1;
     }
 }
